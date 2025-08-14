@@ -1,0 +1,82 @@
+
+
+/* Continuous scrolling with header/footer */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/* Account for fixed header */
+.continuous-container {
+  padding-top: 80px; /* Space for fixed header */
+}
+
+/* Ensure sections take full height minus header */
+section {
+  width: 100%;
+  position: relative;
+  min-height: calc(100vh - 80px); /* Subtract header height */
+}
+
+/* First section (home) should be full height */
+section#home {
+  min-height: 100vh;
+  margin-top: -80px; /* Pull up to overlap header space */
+  padding-top: 80px; /* Add padding to push content below header */
+}
+
+/* Smooth scrolling container */
+.continuous-layout {
+  scroll-behavior: smooth;
+}
+
+/* Remove any gaps between sections */
+* {
+  box-sizing: border-box;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+/* Dark mode scrollbar */
+.dark ::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+/* Header z-index fix */
+header {
+  z-index: 50;
+}
+
+/* Navigation indicator z-index */
+.scroll-indicator {
+  z-index: 40;
+}

@@ -1,0 +1,19 @@
+/* Basic reset and custom components */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Custom component classes using Tailwind */
+.btn {
+  @apply px-6 py-3 rounded-lg font-semibold transition-all duration-200 transform hover:scale-105;
+}
+
+.btn-primary {
+  @apply bg-blue-500 text-white hover:bg-blue-600 shadow-lg hover:shadow-xl;
+}
+
+.btn-secondary {
+  @apply bg-transparent text-white border-2 border-white hover:bg-white hover:text-gray-900;
+}

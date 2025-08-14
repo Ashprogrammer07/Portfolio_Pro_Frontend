@@ -46,9 +46,9 @@ const Home = () => {
   ];
 
   const achievements = [
-    { icon: "🚀", number: "50+", label: "Projects Completed", color: "bg-blue-500" },
-    { icon: "⭐", number: "5+", label: "Years Experience", color: "bg-purple-500" },
-    { icon: "💼", number: "100+", label: "Happy Clients", color: "bg-green-500" },
+    { icon: "🚀", number: "10+", label: "Projects Completed", color: "bg-blue-500" },
+    { icon: "⭐", number: "1+", label: "Years Experience", color: "bg-purple-500" },
+    { icon: "💼", number: "10+", label: "Happy Clients", color: "bg-green-500" },
    
   ];
 
@@ -209,7 +209,7 @@ const Home = () => {
                     Node.js Pro
                   </div>
                   <div className="absolute -bottom-6 left-1/2 transform -translate-x-1/2 px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full border border-white/20 text-white text-sm font-medium animate-pulse" style={{animationDelay: '2s'}}>
-                    Cloud Architect
+                    Web Developer
                   </div>
                 </div>
               </div>

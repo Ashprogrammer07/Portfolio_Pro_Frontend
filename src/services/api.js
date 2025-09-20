@@ -153,7 +153,7 @@ export const uploadAPI = {
 
 // Get file URL helper
 export const getFileUrl = (filename) => {
-  return `${process.env.REACT_APP_SERVER_URL || 'http://localhost:8000'}/uploads/${filename}`;
+  return `${process.env.SERVER_URL || 'http://localhost:8000'}/uploads/${filename}`;
 };
 
 // Error handler utility

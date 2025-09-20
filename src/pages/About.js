@@ -4,10 +4,10 @@ import { Link } from 'react-router-dom';
 const About = () => {
   const experiences = [
     {
-      company: "Future Intern",
-      position: "Full Stack Development Intern",
+      company: "WebForge-Dropwing Groups",
+      position: "Chief Executive Officer",
       period: "2025 - Present",
-      description: "Led development of scalable web applications serving 100k+ users."
+      description: "Leading a dynamic team to deliver innovative web solutions, driving business growth and client satisfaction through strategic vision and hands-on management."
     }
   ];
 

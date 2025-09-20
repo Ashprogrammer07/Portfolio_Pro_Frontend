@@ -10,7 +10,7 @@ const Home = () => {
     "Full Stack Developer",
     "UI/UX Enthusiast", 
     "Backend Architect",
-    "Cloud Engineer",
+    "CEO of WebForge",
     "Problem Solver"
   ];
   

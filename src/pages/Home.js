@@ -114,7 +114,7 @@ const Home = () => {
                     <span className="text-2xl sm:text-3xl lg:text-4xl font-bold bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600 bg-clip-text text-transparent">
                       {roles[currentRole]}
                     </span>
-                    <span className="animate-pulse ml-3 text-3xl text-cyan-400">|</span>
+                    
                   </div>
                 </div>
 

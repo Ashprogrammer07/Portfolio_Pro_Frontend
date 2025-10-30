@@ -263,7 +263,7 @@ const Home = () => {
           </div>
 
           {/* Services Grid */}
-          <div className="grid lg:grid-cols-3 gap-8">
+          <div className="grid lg:grid-cols-3 gap-8 mb-3">
             {services.map((service, index) => (
               <div
                 key={index}

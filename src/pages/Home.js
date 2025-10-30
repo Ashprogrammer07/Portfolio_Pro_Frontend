@@ -188,7 +188,7 @@ const Home = () => {
                   {/* Profile Container */}
                   <div className="relative w-80 h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden border-4 border-white/30 shadow-2xl ring-4 ring-white/10 group-hover:ring-white/30 transition-all duration-500">
                     <img 
-                      src="/assets/WhatsApp Image 2025-05-20 at 09.58.59_7c3eee7d.jpg" 
+                      src="/assets/p.jpg" 
                       alt="Ashwin Kumaran - Full Stack Developer"
                       className="w-full h-full object-cover object-[center_10%] group-hover:scale-100 transition-transform duration-700"
                       loading="lazy"

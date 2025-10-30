@@ -45,7 +45,7 @@ const About = () => {
                 <div className="flex items-center mb-6">
                   <div className="w-20 h-20 rounded-full overflow-hidden mr-6">
                     <img 
-                      src="/assets/WhatsApp Image 2025-05-20 at 09.58.59_7c3eee7d.jpg" 
+                      src="/assets/p.jpg" 
                       alt="Profile"
                       className="w-full h-40 object-cover"
                     />

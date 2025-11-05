@@ -77,7 +77,7 @@ const Home = () => {
   return (
     <div className="min-h-screen relative overflow-x-hidden">
       {/* Enhanced Hero Section */}
-      <section className="relative  bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 text-white ">
+      <section className="relative pb-2 bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 text-white ">
         {/* Animated Background */}
         <div className="absolute inset-0 opacity-20">
           <div className="absolute top-20 left-20 w-72 h-72 bg-blue-400 rounded-full mix-blend-multiply filter blur-xl animate-pulse"></div>
